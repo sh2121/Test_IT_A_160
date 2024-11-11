@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.dashboard-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.dashboard-container h1 {
+    color: yellow;
+    background-color: #fb8f98;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.dashboard-container h2 {
+    color: #28a745;
+    margin-top: 10px;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+.controls button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.controls button:hover {
+    background-color: #218838;
+}
+
+.controls select {
+    padding: 5px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+#userList {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#userList li {
+    color: blue;
+    cursor: pointer;
+}
+
+.logout-button {
+    padding: 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
